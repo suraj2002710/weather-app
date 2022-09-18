@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.cont{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(192, 137, 137);
+    border: 4px solid rgb(144, 125, 248);
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:42px;
+    box-shadow: 0px 0px 10px 10px rgb(175, 170, 231);
+    /* visibility: hidden; */
+    z-index: -1;
+}
+.location{
+    margin: 10px;
+}
+#date{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.temp h2{
+    padding: 8px;
+    text-align: center;
+}
+#inputbox{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5rem;
+    height: 42px;
+    border-radius: 10px;
+}
+.logo{
+    padding-top: 20px;
+}
+#type{
+    text-align: center;
+    font-size: 1.2rem   ;
+    padding-top: 5px;
+}
+#minmax{
+    padding-top: 8px;
+    font-size: 1.2rem;
+}
+#btn{
+    height: 42px;
+    width: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: royalblue;
+} 
